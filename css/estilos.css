@@ -1,0 +1,160 @@
+body{
+    background:url(../img/fondo2.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;  
+}
+p{
+    text-shadow: 1px 1px 1px #000;
+}
+a{
+    text-decoration:none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.intro {
+    border: 5px solid #000;
+}
+.No {
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.menu {
+    text-decoration:none;
+    width: 100%;
+    background:#000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    display: inline-block;
+}
+.menu li a {
+    padding: 10px 20px;
+    display:inline-block;
+    color: #fff;
+}
+.menu li a:hover {
+    background-color: rgb(75, 75, 97);
+}
+.perfil {
+    border-radius: 50%;
+    padding: 10px;
+    border: 10px outset rgb(61, 59, 83);
+}
+.autores {
+    background:#000;
+    padding: 10px 20px;
+    margin: 50px;
+}
+
+
+.Bloodborne {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.Bloodborne figure {
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+.Bloodborne figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Bloodborne figure:hover > a img {
+    transform: scale(1.3);
+}
+
+
+.Hades {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.Hades figure {
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+.Hades figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Hades figure:hover > a img {
+    transform: scale(1.3);
+}
+
+
+.Metroid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.Metroid figure {
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+.Metroid figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Metroid figure:hover > a img {
+    transform: scale(1.3);
+}
+
+.Hollow_Knight {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.Hollow_Knight figure {
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+.Hollow_Knight figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Hollow_Knight figure:hover > a img {
+    transform: scale(1.3);
+}
+
+
